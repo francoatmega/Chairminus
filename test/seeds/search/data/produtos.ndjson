@@ -1,0 +1,80 @@
+{"index":{"_id":"CAD-1001"}}
+{"sku":"CAD-1001","nome":"Cadeira Giratória Nogueira","categoria":"Cadeiras","preco":2213.9,"estoque":121,"ativo":false,"tags":["compacto"],"atributos":{"cor":"nogueira","material":"aço","peso_kg":11,"dimensoes":{"largura_cm":136,"altura_cm":147,"profundidade_cm":98}},"criado_em":"2025-04-20T08:10:31Z"}
+{"index":{"_id":"CAD-1002"}}
+{"sku":"CAD-1002","nome":"Cadeira de Jantar Preto","categoria":"Cadeiras","preco":1680.9,"estoque":142,"ativo":true,"tags":["compacto"],"atributos":{"cor":"preto","material":"alumínio","peso_kg":14.5,"dimensoes":{"largura_cm":159,"altura_cm":159,"profundidade_cm":104}},"criado_em":"2025-09-10T07:18:56Z"}
+{"index":{"_id":"CAD-1003"}}
+{"sku":"CAD-1003","nome":"Banqueta Alta Nogueira","categoria":"Cadeiras","preco":2335.9,"estoque":126,"ativo":true,"tags":["compacto"],"atributos":{"cor":"nogueira","material":"linho","peso_kg":12.3,"dimensoes":{"largura_cm":36,"altura_cm":137,"profundidade_cm":109}},"criado_em":"2025-08-18T17:47:21Z"}
+{"index":{"_id":"CAD-1004"}}
+{"sku":"CAD-1004","nome":"Poltrona de Leitura Nogueira","categoria":"Cadeiras","preco":423.9,"estoque":0,"ativo":true,"tags":["lançamento"],"atributos":{"cor":"nogueira","material":"cerâmica","peso_kg":9.9,"dimensoes":{"largura_cm":196,"altura_cm":75,"profundidade_cm":105}},"criado_em":"2025-11-25T09:46:34Z"}
+{"index":{"_id":"CAD-1005"}}
+{"sku":"CAD-1005","nome":"Cadeira Dobrável Verde-oliva","categoria":"Cadeiras","preco":994.9,"estoque":131,"ativo":true,"tags":["frete grátis"],"atributos":{"cor":"verde-oliva","material":"vime","peso_kg":40.1,"dimensoes":{"largura_cm":34,"altura_cm":30,"profundidade_cm":69}},"criado_em":"2025-06-30T19:37:29Z"}
+{"index":{"_id":"MES-1001"}}
+{"sku":"MES-1001","nome":"Mesa de Escritório Verde-oliva","categoria":"Mesas","preco":1167.9,"estoque":56,"ativo":true,"tags":["lançamento","sob encomenda"],"atributos":{"cor":"verde-oliva","material":"MDF","peso_kg":6.5,"dimensoes":{"largura_cm":80,"altura_cm":179,"profundidade_cm":39}},"criado_em":"2025-06-24T21:07:37Z"}
+{"index":{"_id":"MES-1002"}}
+{"sku":"MES-1002","nome":"Mesa de Jantar Terracota","categoria":"Mesas","preco":423.9,"estoque":44,"ativo":true,"tags":["lançamento"],"atributos":{"cor":"terracota","material":"madeira maciça","peso_kg":22.1,"dimensoes":{"largura_cm":136,"altura_cm":114,"profundidade_cm":32}},"criado_em":"2025-09-21T10:48:05Z"}
+{"index":{"_id":"MES-1003"}}
+{"sku":"MES-1003","nome":"Mesa de Centro Terracota","categoria":"Mesas","preco":2272.9,"estoque":3,"ativo":true,"tags":["sob encomenda","ecológico"],"atributos":{"cor":"terracota","material":"linho","peso_kg":18.4,"dimensoes":{"largura_cm":197,"altura_cm":150,"profundidade_cm":50}},"criado_em":"2025-07-08T20:06:49Z"}
+{"index":{"_id":"MES-1004"}}
+{"sku":"MES-1004","nome":"Mesa Lateral Verde-oliva","categoria":"Mesas","preco":81.9,"estoque":83,"ativo":true,"tags":["mais vendido","lançamento"],"atributos":{"cor":"verde-oliva","material":"vime","peso_kg":24.5,"dimensoes":{"largura_cm":68,"altura_cm":60,"profundidade_cm":30}},"criado_em":"2025-02-05T07:48:07Z"}
+{"index":{"_id":"MES-1005"}}
+{"sku":"MES-1005","nome":"Escrivaninha Compacta Verde-oliva","categoria":"Mesas","preco":697.9,"estoque":140,"ativo":false,"tags":["compacto"],"atributos":{"cor":"verde-oliva","material":"madeira maciça","peso_kg":12,"dimensoes":{"largura_cm":187,"altura_cm":98,"profundidade_cm":64}},"criado_em":"2025-03-04T17:31:17Z"}
+{"index":{"_id":"ILU-1001"}}
+{"sku":"ILU-1001","nome":"Luminária de Mesa Nogueira","categoria":"Iluminação","preco":256.9,"estoque":34,"ativo":true,"tags":["mais vendido","compacto"],"atributos":{"cor":"nogueira","material":"MDF","peso_kg":46,"dimensoes":{"largura_cm":59,"altura_cm":105,"profundidade_cm":32}},"criado_em":"2025-01-05T09:33:25Z"}
+{"index":{"_id":"ILU-1002"}}
+{"sku":"ILU-1002","nome":"Pendente Industrial Branco","categoria":"Iluminação","preco":2142.9,"estoque":0,"ativo":true,"tags":["sob encomenda"],"atributos":{"cor":"branco","material":"MDF","peso_kg":32.9,"dimensoes":{"largura_cm":91,"altura_cm":30,"profundidade_cm":67}},"criado_em":"2025-05-24T21:55:02Z"}
+{"index":{"_id":"ILU-1003"}}
+{"sku":"ILU-1003","nome":"Abajur de Cerâmica Preto","categoria":"Iluminação","preco":521.9,"estoque":129,"ativo":true,"tags":["lançamento"],"atributos":{"cor":"preto","material":"madeira maciça","peso_kg":30.5,"dimensoes":{"largura_cm":48,"altura_cm":58,"profundidade_cm":50}},"criado_em":"2025-06-24T14:29:37Z"}
+{"index":{"_id":"ILU-1004"}}
+{"sku":"ILU-1004","nome":"Arandela de Parede Nogueira","categoria":"Iluminação","preco":1205.9,"estoque":97,"ativo":true,"tags":["compacto"],"atributos":{"cor":"nogueira","material":"cerâmica","peso_kg":8.2,"dimensoes":{"largura_cm":112,"altura_cm":63,"profundidade_cm":88}},"criado_em":"2025-02-10T13:53:09Z"}
+{"index":{"_id":"ILU-1005"}}
+{"sku":"ILU-1005","nome":"Luminária de Piso Branco","categoria":"Iluminação","preco":2179.9,"estoque":66,"ativo":false,"tags":["compacto","promoção"],"atributos":{"cor":"branco","material":"aço","peso_kg":31.5,"dimensoes":{"largura_cm":89,"altura_cm":78,"profundidade_cm":48}},"criado_em":"2025-04-07T14:29:57Z"}
+{"index":{"_id":"EST-1001"}}
+{"sku":"EST-1001","nome":"Estante Modular Cinza","categoria":"Estantes","preco":262.9,"estoque":32,"ativo":true,"tags":["promoção","ecológico"],"atributos":{"cor":"cinza","material":"madeira maciça","peso_kg":38,"dimensoes":{"largura_cm":106,"altura_cm":96,"profundidade_cm":43}},"criado_em":"2025-09-14T07:32:25Z"}
+{"index":{"_id":"EST-1002"}}
+{"sku":"EST-1002","nome":"Prateleira Flutuante Cinza","categoria":"Estantes","preco":752.9,"estoque":114,"ativo":true,"tags":["promoção"],"atributos":{"cor":"cinza","material":"vime","peso_kg":25.6,"dimensoes":{"largura_cm":50,"altura_cm":54,"profundidade_cm":76}},"criado_em":"2025-06-12T08:22:00Z"}
+{"index":{"_id":"EST-1003"}}
+{"sku":"EST-1003","nome":"Nicho Quadrado Carvalho","categoria":"Estantes","preco":776.9,"estoque":7,"ativo":false,"tags":["mais vendido"],"atributos":{"cor":"carvalho","material":"alumínio","peso_kg":36.7,"dimensoes":{"largura_cm":68,"altura_cm":134,"profundidade_cm":85}},"criado_em":"2025-01-06T12:34:06Z"}
+{"index":{"_id":"EST-1004"}}
+{"sku":"EST-1004","nome":"Estante Escada Branco","categoria":"Estantes","preco":891.9,"estoque":32,"ativo":true,"tags":["compacto"],"atributos":{"cor":"branco","material":"cerâmica","peso_kg":3.6,"dimensoes":{"largura_cm":160,"altura_cm":77,"profundidade_cm":108}},"criado_em":"2025-01-18T15:46:05Z"}
+{"index":{"_id":"EST-1005"}}
+{"sku":"EST-1005","nome":"Rack para TV Preto","categoria":"Estantes","preco":2038.9,"estoque":180,"ativo":true,"tags":["frete grátis","promoção"],"atributos":{"cor":"preto","material":"MDF","peso_kg":41.7,"dimensoes":{"largura_cm":51,"altura_cm":96,"profundidade_cm":26}},"criado_em":"2025-03-08T12:22:40Z"}
+{"index":{"_id":"SOF-1001"}}
+{"sku":"SOF-1001","nome":"Sofá de 2 Lugares Preto","categoria":"Sofás","preco":2392.9,"estoque":125,"ativo":true,"tags":["compacto","sob encomenda"],"atributos":{"cor":"preto","material":"cerâmica","peso_kg":3.2,"dimensoes":{"largura_cm":73,"altura_cm":149,"profundidade_cm":67}},"criado_em":"2025-09-03T12:40:14Z"}
+{"index":{"_id":"SOF-1002"}}
+{"sku":"SOF-1002","nome":"Sofá Retrátil Carvalho","categoria":"Sofás","preco":1329.9,"estoque":52,"ativo":true,"tags":["promoção","sob encomenda"],"atributos":{"cor":"carvalho","material":"aço","peso_kg":22.7,"dimensoes":{"largura_cm":33,"altura_cm":63,"profundidade_cm":31}},"criado_em":"2025-03-16T07:40:04Z"}
+{"index":{"_id":"SOF-1003"}}
+{"sku":"SOF-1003","nome":"Pufe Redondo Verde-oliva","categoria":"Sofás","preco":424.9,"estoque":50,"ativo":true,"tags":["ecológico"],"atributos":{"cor":"verde-oliva","material":"vime","peso_kg":21.4,"dimensoes":{"largura_cm":125,"altura_cm":154,"profundidade_cm":65}},"criado_em":"2024-12-21T13:16:23Z"}
+{"index":{"_id":"SOF-1004"}}
+{"sku":"SOF-1004","nome":"Chaise Longue Preto","categoria":"Sofás","preco":869.9,"estoque":120,"ativo":true,"tags":["compacto","promoção"],"atributos":{"cor":"preto","material":"alumínio","peso_kg":14.5,"dimensoes":{"largura_cm":219,"altura_cm":88,"profundidade_cm":58}},"criado_em":"2025-06-19T17:43:55Z"}
+{"index":{"_id":"SOF-1005"}}
+{"sku":"SOF-1005","nome":"Sofá-cama Cinza","categoria":"Sofás","preco":91.9,"estoque":0,"ativo":true,"tags":["mais vendido","sob encomenda"],"atributos":{"cor":"cinza","material":"madeira maciça","peso_kg":18.4,"dimensoes":{"largura_cm":196,"altura_cm":173,"profundidade_cm":76}},"criado_em":"2025-11-30T13:12:26Z"}
+{"index":{"_id":"ESC-1001"}}
+{"sku":"ESC-1001","nome":"Gaveteiro com Rodízios Cinza","categoria":"Escritório","preco":1242.9,"estoque":175,"ativo":true,"tags":["compacto"],"atributos":{"cor":"cinza","material":"MDF","peso_kg":36.5,"dimensoes":{"largura_cm":48,"altura_cm":66,"profundidade_cm":86}},"criado_em":"2025-06-13T09:18:56Z"}
+{"index":{"_id":"ESC-1002"}}
+{"sku":"ESC-1002","nome":"Suporte para Monitor Branco","categoria":"Escritório","preco":306.9,"estoque":13,"ativo":true,"tags":["promoção"],"atributos":{"cor":"branco","material":"MDF","peso_kg":8.6,"dimensoes":{"largura_cm":127,"altura_cm":93,"profundidade_cm":40}},"criado_em":"2025-10-09T11:25:01Z"}
+{"index":{"_id":"ESC-1003"}}
+{"sku":"ESC-1003","nome":"Organizador de Mesa Verde-oliva","categoria":"Escritório","preco":1858.9,"estoque":122,"ativo":true,"tags":["promoção"],"atributos":{"cor":"verde-oliva","material":"linho","peso_kg":2.3,"dimensoes":{"largura_cm":182,"altura_cm":117,"profundidade_cm":86}},"criado_em":"2025-02-22T19:44:23Z"}
+{"index":{"_id":"ESC-1004"}}
+{"sku":"ESC-1004","nome":"Quadro Branco Preto","categoria":"Escritório","preco":1645.9,"estoque":54,"ativo":true,"tags":["lançamento","ecológico"],"atributos":{"cor":"preto","material":"aço","peso_kg":33.6,"dimensoes":{"largura_cm":93,"altura_cm":33,"profundidade_cm":72}},"criado_em":"2025-03-01T14:21:19Z"}
+{"index":{"_id":"ESC-1005"}}
+{"sku":"ESC-1005","nome":"Apoio para os Pés Preto","categoria":"Escritório","preco":1617.9,"estoque":104,"ativo":true,"tags":["compacto"],"atributos":{"cor":"preto","material":"linho","peso_kg":17,"dimensoes":{"largura_cm":43,"altura_cm":191,"profundidade_cm":65}},"criado_em":"2025-06-03T16:17:33Z"}
+{"index":{"_id":"DEC-1001"}}
+{"sku":"DEC-1001","nome":"Tapete de Algodão Preto","categoria":"Decoração","preco":1621.9,"estoque":41,"ativo":true,"tags":["mais vendido","promoção"],"atributos":{"cor":"preto","material":"MDF","peso_kg":6.8,"dimensoes":{"largura_cm":52,"altura_cm":165,"profundidade_cm":89}},"criado_em":"2025-01-23T09:53:15Z"}
+{"index":{"_id":"DEC-1002"}}
+{"sku":"DEC-1002","nome":"Espelho Redondo Verde-oliva","categoria":"Decoração","preco":1508.9,"estoque":50,"ativo":true,"tags":["promoção","ecológico"],"atributos":{"cor":"verde-oliva","material":"linho","peso_kg":14,"dimensoes":{"largura_cm":150,"altura_cm":150,"profundidade_cm":53}},"criado_em":"2025-09-07T13:12:42Z"}
+{"index":{"_id":"DEC-1003"}}
+{"sku":"DEC-1003","nome":"Vaso de Cerâmica Cinza","categoria":"Decoração","preco":1786.9,"estoque":136,"ativo":true,"tags":["lançamento"],"atributos":{"cor":"cinza","material":"linho","peso_kg":5.3,"dimensoes":{"largura_cm":190,"altura_cm":134,"profundidade_cm":56}},"criado_em":"2025-07-10T18:01:20Z"}
+{"index":{"_id":"DEC-1004"}}
+{"sku":"DEC-1004","nome":"Relógio de Parede Branco","categoria":"Decoração","preco":2332.9,"estoque":2,"ativo":true,"tags":["lançamento","promoção"],"atributos":{"cor":"branco","material":"alumínio","peso_kg":21.7,"dimensoes":{"largura_cm":219,"altura_cm":65,"profundidade_cm":91}},"criado_em":"2024-12-23T12:38:08Z"}
+{"index":{"_id":"DEC-1005"}}
+{"sku":"DEC-1005","nome":"Conjunto de Quadros Nogueira","categoria":"Decoração","preco":2151.9,"estoque":45,"ativo":true,"tags":["mais vendido","ecológico"],"atributos":{"cor":"nogueira","material":"cerâmica","peso_kg":43.4,"dimensoes":{"largura_cm":35,"altura_cm":132,"profundidade_cm":40}},"criado_em":"2025-05-24T20:45:25Z"}
+{"index":{"_id":"JAR-1001"}}
+{"sku":"JAR-1001","nome":"Cadeira de Varanda Branco","categoria":"Jardim","preco":63.9,"estoque":160,"ativo":true,"tags":["frete grátis"],"atributos":{"cor":"branco","material":"MDF","peso_kg":23.6,"dimensoes":{"largura_cm":124,"altura_cm":127,"profundidade_cm":65}},"criado_em":"2025-03-19T11:31:24Z"}
+{"index":{"_id":"JAR-1002"}}
+{"sku":"JAR-1002","nome":"Mesa de Jardim Verde-oliva","categoria":"Jardim","preco":1362.9,"estoque":110,"ativo":true,"tags":["mais vendido","promoção"],"atributos":{"cor":"verde-oliva","material":"alumínio","peso_kg":44.5,"dimensoes":{"largura_cm":121,"altura_cm":135,"profundidade_cm":37}},"criado_em":"2025-06-05T18:00:51Z"}
+{"index":{"_id":"JAR-1003"}}
+{"sku":"JAR-1003","nome":"Espreguiçadeira Preto","categoria":"Jardim","preco":1551.9,"estoque":138,"ativo":true,"tags":["promoção"],"atributos":{"cor":"preto","material":"couro sintético","peso_kg":36.8,"dimensoes":{"largura_cm":60,"altura_cm":196,"profundidade_cm":84}},"criado_em":"2025-11-23T10:20:36Z"}
+{"index":{"_id":"JAR-1004"}}
+{"sku":"JAR-1004","nome":"Floreira de Madeira Preto","categoria":"Jardim","preco":876.9,"estoque":21,"ativo":true,"tags":["sob encomenda"],"atributos":{"cor":"preto","material":"MDF","peso_kg":6.6,"dimensoes":{"largura_cm":141,"altura_cm":196,"profundidade_cm":52}},"criado_em":"2025-08-22T20:45:19Z"}
+{"index":{"_id":"JAR-1005"}}
+{"sku":"JAR-1005","nome":"Ombrelone Branco","categoria":"Jardim","preco":2375.9,"estoque":24,"ativo":true,"tags":["lançamento"],"atributos":{"cor":"branco","material":"cerâmica","peso_kg":27.1,"dimensoes":{"largura_cm":218,"altura_cm":163,"profundidade_cm":55}},"criado_em":"2025-10-06T18:34:49Z"}

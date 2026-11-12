@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "number_of_shards": "1",
+    "number_of_replicas": "1"
+  },
+  "mappings": {
+    "properties": {
+      "cliente": {
+        "properties": {
+          "cidade": {
+            "type": "keyword"
+          },
+          "nome": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "uf": {
+            "type": "keyword"
+          }
+        }
+      },
+      "criado_em": {
+        "type": "date"
+      },
+      "itens": {
+        "properties": {
+          "nome": {
+            "type": "text"
+          },
+          "preco": {
+            "type": "float"
+          },
+          "quantidade": {
+            "type": "integer"
+          },
+          "sku": {
+            "type": "keyword"
+          }
+        }
+      },
+      "numero": {
+        "type": "integer"
+      },
+      "pagamento": {
+        "type": "keyword"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "total": {
+        "type": "float"
+      }
+    }
+  }
+}

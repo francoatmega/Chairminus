@@ -1,0 +1,440 @@
+{"index":{"_id":"1"}}
+{"@timestamp":"2026-10-22T01:20:33Z","nivel":"aviso","servico":"api","rota":"/checkout","status":404,"duracao_ms":100,"mensagem":"POST /checkout respondeu 404"}
+{"index":{"_id":"2"}}
+{"@timestamp":"2026-10-16T00:37:41Z","nivel":"erro","servico":"pagamentos","rota":"/api/produtos","status":503,"duracao_ms":3839,"mensagem":"GET /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"3"}}
+{"@timestamp":"2026-10-01T21:52:06Z","nivel":"info","servico":"loja-web","rota":"/login","status":204,"duracao_ms":463,"mensagem":"POST /login respondeu 204"}
+{"index":{"_id":"4"}}
+{"@timestamp":"2026-10-09T01:33:18Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":139,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"5"}}
+{"@timestamp":"2026-10-15T23:30:13Z","nivel":"erro","servico":"api","rota":"/api/pedidos","status":500,"duracao_ms":1759,"mensagem":"GET /api/pedidos respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"6"}}
+{"@timestamp":"2026-10-03T03:51:43Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":204,"duracao_ms":73,"mensagem":"PUT /checkout respondeu 204"}
+{"index":{"_id":"7"}}
+{"@timestamp":"2026-10-05T16:22:34Z","nivel":"aviso","servico":"api","rota":"/api/produtos","status":401,"duracao_ms":65,"mensagem":"PUT /api/produtos respondeu 401"}
+{"index":{"_id":"8"}}
+{"@timestamp":"2026-10-03T08:05:19Z","nivel":"info","servico":"api","rota":"/checkout","status":201,"duracao_ms":89,"mensagem":"GET /checkout respondeu 201"}
+{"index":{"_id":"9"}}
+{"@timestamp":"2026-10-21T01:08:43Z","nivel":"aviso","servico":"loja-web","rota":"/api/produtos","status":400,"duracao_ms":336,"mensagem":"PUT /api/produtos respondeu 400"}
+{"index":{"_id":"10"}}
+{"@timestamp":"2026-10-26T00:05:31Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":244,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"11"}}
+{"@timestamp":"2026-10-19T20:06:46Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":200,"duracao_ms":437,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"12"}}
+{"@timestamp":"2026-10-04T20:29:30Z","nivel":"erro","servico":"api","rota":"/api/carrinho","status":500,"duracao_ms":2792,"mensagem":"PUT /api/carrinho respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"13"}}
+{"@timestamp":"2026-10-14T01:18:50Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":200,"duracao_ms":393,"mensagem":"PUT /checkout respondeu 200"}
+{"index":{"_id":"14"}}
+{"@timestamp":"2026-10-25T07:20:30Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":304,"duracao_ms":464,"mensagem":"PUT /api/produtos respondeu 304"}
+{"index":{"_id":"15"}}
+{"@timestamp":"2026-10-08T06:52:52Z","nivel":"info","servico":"loja-web","rota":"/login","status":304,"duracao_ms":469,"mensagem":"GET /login respondeu 304"}
+{"index":{"_id":"16"}}
+{"@timestamp":"2026-10-20T06:27:54Z","nivel":"info","servico":"loja-web","rota":"/login","status":200,"duracao_ms":41,"mensagem":"POST /login respondeu 200"}
+{"index":{"_id":"17"}}
+{"@timestamp":"2026-10-01T09:58:20Z","nivel":"info","servico":"loja-web","rota":"/api/clientes","status":200,"duracao_ms":341,"mensagem":"POST /api/clientes respondeu 200"}
+{"index":{"_id":"18"}}
+{"@timestamp":"2026-10-06T06:32:45Z","nivel":"info","servico":"pagamentos","rota":"/login","status":201,"duracao_ms":365,"mensagem":"POST /login respondeu 201"}
+{"index":{"_id":"19"}}
+{"@timestamp":"2026-10-04T07:30:43Z","nivel":"aviso","servico":"api","rota":"/login","status":401,"duracao_ms":281,"mensagem":"POST /login respondeu 401"}
+{"index":{"_id":"20"}}
+{"@timestamp":"2026-10-20T02:14:03Z","nivel":"erro","servico":"api","rota":"/checkout","status":500,"duracao_ms":2525,"mensagem":"GET /checkout respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"21"}}
+{"@timestamp":"2026-10-17T15:38:58Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":200,"duracao_ms":12,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"22"}}
+{"@timestamp":"2026-10-22T04:14:55Z","nivel":"info","servico":"loja-web","rota":"/api/pedidos","status":200,"duracao_ms":452,"mensagem":"POST /api/pedidos respondeu 200"}
+{"index":{"_id":"23"}}
+{"@timestamp":"2026-10-21T07:03:39Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":200,"duracao_ms":80,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"24"}}
+{"@timestamp":"2026-10-21T06:39:55Z","nivel":"aviso","servico":"loja-web","rota":"/api/produtos","status":400,"duracao_ms":199,"mensagem":"GET /api/produtos respondeu 400"}
+{"index":{"_id":"25"}}
+{"@timestamp":"2026-10-11T12:10:59Z","nivel":"erro","servico":"api","rota":"/checkout","status":500,"duracao_ms":2689,"mensagem":"POST /checkout respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"26"}}
+{"@timestamp":"2026-10-14T14:26:28Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":200,"duracao_ms":452,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"27"}}
+{"@timestamp":"2026-10-09T18:10:06Z","nivel":"erro","servico":"pagamentos","rota":"/api/carrinho","status":503,"duracao_ms":3708,"mensagem":"POST /api/carrinho respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"28"}}
+{"@timestamp":"2026-10-06T09:12:42Z","nivel":"info","servico":"api","rota":"/api/clientes","status":200,"duracao_ms":446,"mensagem":"GET /api/clientes respondeu 200"}
+{"index":{"_id":"29"}}
+{"@timestamp":"2026-10-03T04:12:42Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":204,"duracao_ms":15,"mensagem":"GET /checkout respondeu 204"}
+{"index":{"_id":"30"}}
+{"@timestamp":"2026-10-21T02:21:11Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":200,"duracao_ms":11,"mensagem":"PUT /api/carrinho respondeu 200"}
+{"index":{"_id":"31"}}
+{"@timestamp":"2026-10-08T15:24:59Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":399,"mensagem":"POST /checkout respondeu 200"}
+{"index":{"_id":"32"}}
+{"@timestamp":"2026-10-21T05:52:09Z","nivel":"erro","servico":"api","rota":"/api/carrinho","status":500,"duracao_ms":1802,"mensagem":"PUT /api/carrinho respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"33"}}
+{"@timestamp":"2026-10-26T19:53:26Z","nivel":"aviso","servico":"loja-web","rota":"/api/carrinho","status":400,"duracao_ms":165,"mensagem":"GET /api/carrinho respondeu 400"}
+{"index":{"_id":"34"}}
+{"@timestamp":"2026-10-20T05:12:09Z","nivel":"erro","servico":"api","rota":"/api/produtos","status":500,"duracao_ms":2019,"mensagem":"POST /api/produtos respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"35"}}
+{"@timestamp":"2026-10-23T02:43:04Z","nivel":"info","servico":"loja-web","rota":"/api/carrinho","status":200,"duracao_ms":208,"mensagem":"POST /api/carrinho respondeu 200"}
+{"index":{"_id":"36"}}
+{"@timestamp":"2026-10-21T12:12:24Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":304,"duracao_ms":353,"mensagem":"GET /checkout respondeu 304"}
+{"index":{"_id":"37"}}
+{"@timestamp":"2026-10-23T03:26:50Z","nivel":"info","servico":"api","rota":"/api/clientes","status":304,"duracao_ms":456,"mensagem":"POST /api/clientes respondeu 304"}
+{"index":{"_id":"38"}}
+{"@timestamp":"2026-10-08T16:44:37Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":278,"mensagem":"POST /checkout respondeu 200"}
+{"index":{"_id":"39"}}
+{"@timestamp":"2026-10-06T19:11:20Z","nivel":"aviso","servico":"api","rota":"/checkout","status":401,"duracao_ms":184,"mensagem":"PUT /checkout respondeu 401"}
+{"index":{"_id":"40"}}
+{"@timestamp":"2026-10-01T00:23:02Z","nivel":"info","servico":"api","rota":"/login","status":200,"duracao_ms":369,"mensagem":"POST /login respondeu 200"}
+{"index":{"_id":"41"}}
+{"@timestamp":"2026-10-03T08:51:04Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":401,"duracao_ms":190,"mensagem":"POST /api/carrinho respondeu 401"}
+{"index":{"_id":"42"}}
+{"@timestamp":"2026-10-17T21:14:48Z","nivel":"aviso","servico":"loja-web","rota":"/api/clientes","status":401,"duracao_ms":333,"mensagem":"POST /api/clientes respondeu 401"}
+{"index":{"_id":"43"}}
+{"@timestamp":"2026-10-10T18:51:55Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":55,"mensagem":"POST /api/produtos respondeu 200"}
+{"index":{"_id":"44"}}
+{"@timestamp":"2026-10-22T14:31:11Z","nivel":"aviso","servico":"loja-web","rota":"/api/carrinho","status":404,"duracao_ms":480,"mensagem":"POST /api/carrinho respondeu 404"}
+{"index":{"_id":"45"}}
+{"@timestamp":"2026-10-11T05:44:46Z","nivel":"aviso","servico":"loja-web","rota":"/api/produtos","status":404,"duracao_ms":390,"mensagem":"GET /api/produtos respondeu 404"}
+{"index":{"_id":"46"}}
+{"@timestamp":"2026-10-02T08:17:07Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":443,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"47"}}
+{"@timestamp":"2026-10-10T20:36:04Z","nivel":"erro","servico":"loja-web","rota":"/api/pedidos","status":503,"duracao_ms":2287,"mensagem":"POST /api/pedidos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"48"}}
+{"@timestamp":"2026-10-07T02:50:39Z","nivel":"erro","servico":"pagamentos","rota":"/api/pedidos","status":503,"duracao_ms":2264,"mensagem":"GET /api/pedidos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"49"}}
+{"@timestamp":"2026-10-16T11:20:24Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":200,"duracao_ms":243,"mensagem":"POST /checkout respondeu 200"}
+{"index":{"_id":"50"}}
+{"@timestamp":"2026-10-13T04:33:02Z","nivel":"info","servico":"loja-web","rota":"/api/clientes","status":304,"duracao_ms":33,"mensagem":"PUT /api/clientes respondeu 304"}
+{"index":{"_id":"51"}}
+{"@timestamp":"2026-10-05T00:58:18Z","nivel":"aviso","servico":"api","rota":"/api/clientes","status":401,"duracao_ms":196,"mensagem":"GET /api/clientes respondeu 401"}
+{"index":{"_id":"52"}}
+{"@timestamp":"2026-10-23T11:43:14Z","nivel":"aviso","servico":"pagamentos","rota":"/api/pedidos","status":404,"duracao_ms":464,"mensagem":"POST /api/pedidos respondeu 404"}
+{"index":{"_id":"53"}}
+{"@timestamp":"2026-10-03T06:44:47Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":370,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"54"}}
+{"@timestamp":"2026-10-23T17:08:54Z","nivel":"info","servico":"pagamentos","rota":"/login","status":204,"duracao_ms":90,"mensagem":"GET /login respondeu 204"}
+{"index":{"_id":"55"}}
+{"@timestamp":"2026-10-12T05:10:41Z","nivel":"erro","servico":"pagamentos","rota":"/api/clientes","status":500,"duracao_ms":3512,"mensagem":"PUT /api/clientes respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"56"}}
+{"@timestamp":"2026-10-10T06:20:53Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":67,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"57"}}
+{"@timestamp":"2026-10-04T07:13:16Z","nivel":"aviso","servico":"api","rota":"/api/carrinho","status":401,"duracao_ms":134,"mensagem":"POST /api/carrinho respondeu 401"}
+{"index":{"_id":"58"}}
+{"@timestamp":"2026-10-07T05:55:16Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":63,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"59"}}
+{"@timestamp":"2026-10-01T02:22:02Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":200,"duracao_ms":375,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"60"}}
+{"@timestamp":"2026-10-10T06:59:00Z","nivel":"aviso","servico":"loja-web","rota":"/login","status":404,"duracao_ms":107,"mensagem":"PUT /login respondeu 404"}
+{"index":{"_id":"61"}}
+{"@timestamp":"2026-10-25T22:19:37Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":217,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"62"}}
+{"@timestamp":"2026-10-05T06:17:01Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":390,"mensagem":"PUT /api/carrinho respondeu 200"}
+{"index":{"_id":"63"}}
+{"@timestamp":"2026-10-18T22:49:40Z","nivel":"aviso","servico":"api","rota":"/login","status":400,"duracao_ms":252,"mensagem":"POST /login respondeu 400"}
+{"index":{"_id":"64"}}
+{"@timestamp":"2026-10-06T03:37:49Z","nivel":"info","servico":"loja-web","rota":"/api/clientes","status":200,"duracao_ms":360,"mensagem":"PUT /api/clientes respondeu 200"}
+{"index":{"_id":"65"}}
+{"@timestamp":"2026-10-01T10:28:24Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":304,"duracao_ms":106,"mensagem":"GET /api/carrinho respondeu 304"}
+{"index":{"_id":"66"}}
+{"@timestamp":"2026-10-07T10:03:38Z","nivel":"info","servico":"pagamentos","rota":"/api/clientes","status":200,"duracao_ms":356,"mensagem":"POST /api/clientes respondeu 200"}
+{"index":{"_id":"67"}}
+{"@timestamp":"2026-10-09T13:37:30Z","nivel":"erro","servico":"loja-web","rota":"/api/produtos","status":503,"duracao_ms":199,"mensagem":"PUT /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"68"}}
+{"@timestamp":"2026-10-28T04:47:00Z","nivel":"info","servico":"api","rota":"/login","status":200,"duracao_ms":308,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"69"}}
+{"@timestamp":"2026-10-07T10:18:16Z","nivel":"erro","servico":"loja-web","rota":"/api/pedidos","status":500,"duracao_ms":3867,"mensagem":"GET /api/pedidos respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"70"}}
+{"@timestamp":"2026-10-13T15:42:57Z","nivel":"info","servico":"api","rota":"/login","status":304,"duracao_ms":24,"mensagem":"PUT /login respondeu 304"}
+{"index":{"_id":"71"}}
+{"@timestamp":"2026-10-23T17:50:57Z","nivel":"aviso","servico":"api","rota":"/api/produtos","status":401,"duracao_ms":211,"mensagem":"GET /api/produtos respondeu 401"}
+{"index":{"_id":"72"}}
+{"@timestamp":"2026-10-12T18:08:58Z","nivel":"aviso","servico":"loja-web","rota":"/api/produtos","status":400,"duracao_ms":247,"mensagem":"POST /api/produtos respondeu 400"}
+{"index":{"_id":"73"}}
+{"@timestamp":"2026-10-10T21:34:06Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":204,"duracao_ms":288,"mensagem":"GET /api/carrinho respondeu 204"}
+{"index":{"_id":"74"}}
+{"@timestamp":"2026-10-13T00:25:02Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":404,"duracao_ms":440,"mensagem":"GET /api/carrinho respondeu 404"}
+{"index":{"_id":"75"}}
+{"@timestamp":"2026-10-14T08:00:47Z","nivel":"erro","servico":"loja-web","rota":"/api/produtos","status":500,"duracao_ms":205,"mensagem":"GET /api/produtos respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"76"}}
+{"@timestamp":"2026-10-15T09:52:34Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":204,"duracao_ms":398,"mensagem":"PUT /api/produtos respondeu 204"}
+{"index":{"_id":"77"}}
+{"@timestamp":"2026-10-22T00:10:59Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":201,"duracao_ms":307,"mensagem":"GET /api/pedidos respondeu 201"}
+{"index":{"_id":"78"}}
+{"@timestamp":"2026-10-01T13:59:57Z","nivel":"erro","servico":"api","rota":"/api/carrinho","status":503,"duracao_ms":3555,"mensagem":"GET /api/carrinho respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"79"}}
+{"@timestamp":"2026-10-28T23:48:30Z","nivel":"info","servico":"api","rota":"/login","status":200,"duracao_ms":441,"mensagem":"PUT /login respondeu 200"}
+{"index":{"_id":"80"}}
+{"@timestamp":"2026-10-19T21:42:15Z","nivel":"aviso","servico":"api","rota":"/api/clientes","status":401,"duracao_ms":245,"mensagem":"PUT /api/clientes respondeu 401"}
+{"index":{"_id":"81"}}
+{"@timestamp":"2026-10-03T21:44:16Z","nivel":"erro","servico":"api","rota":"/api/produtos","status":503,"duracao_ms":1904,"mensagem":"PUT /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"82"}}
+{"@timestamp":"2026-10-13T00:38:09Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":101,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"83"}}
+{"@timestamp":"2026-10-21T02:44:22Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":200,"duracao_ms":333,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"84"}}
+{"@timestamp":"2026-10-06T12:25:50Z","nivel":"aviso","servico":"loja-web","rota":"/api/pedidos","status":400,"duracao_ms":50,"mensagem":"PUT /api/pedidos respondeu 400"}
+{"index":{"_id":"85"}}
+{"@timestamp":"2026-10-17T02:57:05Z","nivel":"info","servico":"api","rota":"/api/clientes","status":200,"duracao_ms":392,"mensagem":"PUT /api/clientes respondeu 200"}
+{"index":{"_id":"86"}}
+{"@timestamp":"2026-10-13T04:14:09Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":204,"duracao_ms":424,"mensagem":"PUT /api/produtos respondeu 204"}
+{"index":{"_id":"87"}}
+{"@timestamp":"2026-10-24T22:44:23Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":401,"duracao_ms":78,"mensagem":"GET /api/carrinho respondeu 401"}
+{"index":{"_id":"88"}}
+{"@timestamp":"2026-10-25T03:46:37Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":200,"duracao_ms":281,"mensagem":"POST /api/pedidos respondeu 200"}
+{"index":{"_id":"89"}}
+{"@timestamp":"2026-10-14T17:53:03Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":304,"duracao_ms":253,"mensagem":"POST /api/pedidos respondeu 304"}
+{"index":{"_id":"90"}}
+{"@timestamp":"2026-10-01T19:56:56Z","nivel":"info","servico":"api","rota":"/api/produtos","status":204,"duracao_ms":122,"mensagem":"PUT /api/produtos respondeu 204"}
+{"index":{"_id":"91"}}
+{"@timestamp":"2026-10-25T07:55:40Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":204,"duracao_ms":302,"mensagem":"PUT /api/carrinho respondeu 204"}
+{"index":{"_id":"92"}}
+{"@timestamp":"2026-10-24T11:30:50Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":200,"duracao_ms":138,"mensagem":"GET /api/pedidos respondeu 200"}
+{"index":{"_id":"93"}}
+{"@timestamp":"2026-10-12T00:23:05Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":400,"duracao_ms":175,"mensagem":"POST /api/carrinho respondeu 400"}
+{"index":{"_id":"94"}}
+{"@timestamp":"2026-10-23T18:31:31Z","nivel":"aviso","servico":"loja-web","rota":"/api/carrinho","status":404,"duracao_ms":290,"mensagem":"POST /api/carrinho respondeu 404"}
+{"index":{"_id":"95"}}
+{"@timestamp":"2026-10-24T09:41:22Z","nivel":"aviso","servico":"loja-web","rota":"/api/pedidos","status":400,"duracao_ms":349,"mensagem":"GET /api/pedidos respondeu 400"}
+{"index":{"_id":"96"}}
+{"@timestamp":"2026-10-12T05:30:23Z","nivel":"aviso","servico":"pagamentos","rota":"/api/pedidos","status":401,"duracao_ms":23,"mensagem":"POST /api/pedidos respondeu 401"}
+{"index":{"_id":"97"}}
+{"@timestamp":"2026-10-23T17:36:49Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":204,"duracao_ms":121,"mensagem":"POST /api/produtos respondeu 204"}
+{"index":{"_id":"98"}}
+{"@timestamp":"2026-10-27T18:43:26Z","nivel":"erro","servico":"api","rota":"/api/pedidos","status":503,"duracao_ms":33,"mensagem":"GET /api/pedidos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"99"}}
+{"@timestamp":"2026-10-15T22:51:03Z","nivel":"erro","servico":"api","rota":"/checkout","status":500,"duracao_ms":3823,"mensagem":"PUT /checkout respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"100"}}
+{"@timestamp":"2026-10-04T15:48:20Z","nivel":"erro","servico":"api","rota":"/api/produtos","status":503,"duracao_ms":706,"mensagem":"POST /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"101"}}
+{"@timestamp":"2026-10-18T11:28:40Z","nivel":"aviso","servico":"loja-web","rota":"/api/carrinho","status":404,"duracao_ms":4,"mensagem":"POST /api/carrinho respondeu 404"}
+{"index":{"_id":"102"}}
+{"@timestamp":"2026-10-23T13:39:55Z","nivel":"info","servico":"api","rota":"/api/clientes","status":304,"duracao_ms":411,"mensagem":"PUT /api/clientes respondeu 304"}
+{"index":{"_id":"103"}}
+{"@timestamp":"2026-10-26T06:43:14Z","nivel":"info","servico":"api","rota":"/api/clientes","status":204,"duracao_ms":419,"mensagem":"PUT /api/clientes respondeu 204"}
+{"index":{"_id":"104"}}
+{"@timestamp":"2026-10-19T16:33:03Z","nivel":"info","servico":"loja-web","rota":"/api/carrinho","status":200,"duracao_ms":162,"mensagem":"POST /api/carrinho respondeu 200"}
+{"index":{"_id":"105"}}
+{"@timestamp":"2026-10-23T02:44:35Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":200,"duracao_ms":69,"mensagem":"GET /api/pedidos respondeu 200"}
+{"index":{"_id":"106"}}
+{"@timestamp":"2026-10-22T23:03:52Z","nivel":"erro","servico":"api","rota":"/api/clientes","status":503,"duracao_ms":1561,"mensagem":"GET /api/clientes respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"107"}}
+{"@timestamp":"2026-10-10T19:01:16Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":156,"mensagem":"GET /checkout respondeu 200"}
+{"index":{"_id":"108"}}
+{"@timestamp":"2026-10-25T04:43:24Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":200,"duracao_ms":142,"mensagem":"PUT /api/produtos respondeu 200"}
+{"index":{"_id":"109"}}
+{"@timestamp":"2026-10-11T23:29:42Z","nivel":"erro","servico":"pagamentos","rota":"/api/produtos","status":503,"duracao_ms":457,"mensagem":"POST /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"110"}}
+{"@timestamp":"2026-10-27T16:02:28Z","nivel":"aviso","servico":"loja-web","rota":"/api/clientes","status":401,"duracao_ms":39,"mensagem":"PUT /api/clientes respondeu 401"}
+{"index":{"_id":"111"}}
+{"@timestamp":"2026-10-28T13:41:36Z","nivel":"info","servico":"pagamentos","rota":"/login","status":201,"duracao_ms":27,"mensagem":"GET /login respondeu 201"}
+{"index":{"_id":"112"}}
+{"@timestamp":"2026-10-16T22:07:24Z","nivel":"aviso","servico":"pagamentos","rota":"/login","status":400,"duracao_ms":248,"mensagem":"PUT /login respondeu 400"}
+{"index":{"_id":"113"}}
+{"@timestamp":"2026-10-26T21:55:22Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":110,"mensagem":"PUT /login respondeu 200"}
+{"index":{"_id":"114"}}
+{"@timestamp":"2026-10-28T08:00:23Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":200,"duracao_ms":453,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"115"}}
+{"@timestamp":"2026-10-25T02:04:36Z","nivel":"info","servico":"api","rota":"/api/produtos","status":204,"duracao_ms":225,"mensagem":"PUT /api/produtos respondeu 204"}
+{"index":{"_id":"116"}}
+{"@timestamp":"2026-10-12T09:55:31Z","nivel":"aviso","servico":"api","rota":"/login","status":401,"duracao_ms":167,"mensagem":"GET /login respondeu 401"}
+{"index":{"_id":"117"}}
+{"@timestamp":"2026-10-18T05:57:01Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":369,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"118"}}
+{"@timestamp":"2026-10-22T03:13:15Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":204,"duracao_ms":31,"mensagem":"GET /api/pedidos respondeu 204"}
+{"index":{"_id":"119"}}
+{"@timestamp":"2026-10-22T17:36:33Z","nivel":"erro","servico":"api","rota":"/api/pedidos","status":500,"duracao_ms":2855,"mensagem":"PUT /api/pedidos respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"120"}}
+{"@timestamp":"2026-10-19T05:21:46Z","nivel":"info","servico":"loja-web","rota":"/api/pedidos","status":204,"duracao_ms":239,"mensagem":"GET /api/pedidos respondeu 204"}
+{"index":{"_id":"121"}}
+{"@timestamp":"2026-10-22T11:38:33Z","nivel":"info","servico":"pagamentos","rota":"/api/clientes","status":200,"duracao_ms":210,"mensagem":"GET /api/clientes respondeu 200"}
+{"index":{"_id":"122"}}
+{"@timestamp":"2026-10-14T09:05:51Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":200,"duracao_ms":238,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"123"}}
+{"@timestamp":"2026-10-10T12:47:54Z","nivel":"info","servico":"api","rota":"/api/produtos","status":304,"duracao_ms":104,"mensagem":"GET /api/produtos respondeu 304"}
+{"index":{"_id":"124"}}
+{"@timestamp":"2026-10-20T12:32:34Z","nivel":"aviso","servico":"api","rota":"/api/carrinho","status":401,"duracao_ms":145,"mensagem":"GET /api/carrinho respondeu 401"}
+{"index":{"_id":"125"}}
+{"@timestamp":"2026-10-16T23:01:50Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":202,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"126"}}
+{"@timestamp":"2026-10-11T11:58:32Z","nivel":"aviso","servico":"api","rota":"/login","status":401,"duracao_ms":396,"mensagem":"GET /login respondeu 401"}
+{"index":{"_id":"127"}}
+{"@timestamp":"2026-10-03T03:54:57Z","nivel":"aviso","servico":"pagamentos","rota":"/api/pedidos","status":400,"duracao_ms":66,"mensagem":"PUT /api/pedidos respondeu 400"}
+{"index":{"_id":"128"}}
+{"@timestamp":"2026-10-22T07:23:12Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":341,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"129"}}
+{"@timestamp":"2026-10-20T15:53:13Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":204,"duracao_ms":289,"mensagem":"PUT /api/produtos respondeu 204"}
+{"index":{"_id":"130"}}
+{"@timestamp":"2026-10-28T23:09:23Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":450,"mensagem":"PUT /checkout respondeu 200"}
+{"index":{"_id":"131"}}
+{"@timestamp":"2026-10-26T22:44:57Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":201,"duracao_ms":113,"mensagem":"GET /checkout respondeu 201"}
+{"index":{"_id":"132"}}
+{"@timestamp":"2026-10-13T10:05:21Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":204,"duracao_ms":389,"mensagem":"POST /checkout respondeu 204"}
+{"index":{"_id":"133"}}
+{"@timestamp":"2026-10-19T22:34:33Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":201,"duracao_ms":176,"mensagem":"GET /api/produtos respondeu 201"}
+{"index":{"_id":"134"}}
+{"@timestamp":"2026-10-18T23:50:25Z","nivel":"erro","servico":"api","rota":"/api/carrinho","status":500,"duracao_ms":1671,"mensagem":"GET /api/carrinho respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"135"}}
+{"@timestamp":"2026-10-15T08:59:51Z","nivel":"aviso","servico":"loja-web","rota":"/api/carrinho","status":401,"duracao_ms":352,"mensagem":"PUT /api/carrinho respondeu 401"}
+{"index":{"_id":"136"}}
+{"@timestamp":"2026-10-24T09:25:14Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":404,"duracao_ms":47,"mensagem":"GET /api/carrinho respondeu 404"}
+{"index":{"_id":"137"}}
+{"@timestamp":"2026-10-15T05:35:38Z","nivel":"info","servico":"pagamentos","rota":"/api/clientes","status":304,"duracao_ms":279,"mensagem":"GET /api/clientes respondeu 304"}
+{"index":{"_id":"138"}}
+{"@timestamp":"2026-10-15T21:51:51Z","nivel":"aviso","servico":"pagamentos","rota":"/api/clientes","status":404,"duracao_ms":378,"mensagem":"GET /api/clientes respondeu 404"}
+{"index":{"_id":"139"}}
+{"@timestamp":"2026-10-18T05:37:35Z","nivel":"erro","servico":"pagamentos","rota":"/api/clientes","status":503,"duracao_ms":1085,"mensagem":"POST /api/clientes respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"140"}}
+{"@timestamp":"2026-10-01T11:10:26Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":204,"duracao_ms":124,"mensagem":"PUT /checkout respondeu 204"}
+{"index":{"_id":"141"}}
+{"@timestamp":"2026-10-20T20:47:06Z","nivel":"aviso","servico":"api","rota":"/checkout","status":404,"duracao_ms":173,"mensagem":"GET /checkout respondeu 404"}
+{"index":{"_id":"142"}}
+{"@timestamp":"2026-10-14T12:45:57Z","nivel":"aviso","servico":"api","rota":"/checkout","status":404,"duracao_ms":76,"mensagem":"POST /checkout respondeu 404"}
+{"index":{"_id":"143"}}
+{"@timestamp":"2026-10-11T04:08:16Z","nivel":"erro","servico":"pagamentos","rota":"/checkout","status":503,"duracao_ms":3152,"mensagem":"GET /checkout respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"144"}}
+{"@timestamp":"2026-10-18T08:12:54Z","nivel":"aviso","servico":"api","rota":"/api/produtos","status":400,"duracao_ms":239,"mensagem":"GET /api/produtos respondeu 400"}
+{"index":{"_id":"145"}}
+{"@timestamp":"2026-10-06T04:47:19Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":232,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"146"}}
+{"@timestamp":"2026-10-24T03:24:06Z","nivel":"erro","servico":"pagamentos","rota":"/api/produtos","status":503,"duracao_ms":3768,"mensagem":"POST /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"147"}}
+{"@timestamp":"2026-10-26T00:29:17Z","nivel":"info","servico":"pagamentos","rota":"/api/pedidos","status":200,"duracao_ms":219,"mensagem":"GET /api/pedidos respondeu 200"}
+{"index":{"_id":"148"}}
+{"@timestamp":"2026-10-22T14:13:40Z","nivel":"erro","servico":"api","rota":"/api/produtos","status":503,"duracao_ms":3246,"mensagem":"GET /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"149"}}
+{"@timestamp":"2026-10-16T13:18:03Z","nivel":"aviso","servico":"api","rota":"/api/pedidos","status":404,"duracao_ms":123,"mensagem":"GET /api/pedidos respondeu 404"}
+{"index":{"_id":"150"}}
+{"@timestamp":"2026-10-18T12:24:25Z","nivel":"erro","servico":"pagamentos","rota":"/login","status":500,"duracao_ms":1462,"mensagem":"GET /login respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"151"}}
+{"@timestamp":"2026-10-19T21:14:21Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":454,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"152"}}
+{"@timestamp":"2026-10-15T15:02:31Z","nivel":"aviso","servico":"api","rota":"/api/carrinho","status":401,"duracao_ms":273,"mensagem":"POST /api/carrinho respondeu 401"}
+{"index":{"_id":"153"}}
+{"@timestamp":"2026-10-21T17:48:33Z","nivel":"info","servico":"loja-web","rota":"/api/carrinho","status":200,"duracao_ms":161,"mensagem":"PUT /api/carrinho respondeu 200"}
+{"index":{"_id":"154"}}
+{"@timestamp":"2026-10-15T04:42:10Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":204,"duracao_ms":89,"mensagem":"POST /checkout respondeu 204"}
+{"index":{"_id":"155"}}
+{"@timestamp":"2026-10-06T14:15:54Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":200,"duracao_ms":108,"mensagem":"PUT /api/pedidos respondeu 200"}
+{"index":{"_id":"156"}}
+{"@timestamp":"2026-10-01T12:39:51Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":200,"duracao_ms":187,"mensagem":"PUT /api/pedidos respondeu 200"}
+{"index":{"_id":"157"}}
+{"@timestamp":"2026-10-04T16:50:32Z","nivel":"erro","servico":"pagamentos","rota":"/api/carrinho","status":503,"duracao_ms":1872,"mensagem":"POST /api/carrinho respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"158"}}
+{"@timestamp":"2026-10-04T18:29:33Z","nivel":"aviso","servico":"api","rota":"/api/carrinho","status":400,"duracao_ms":165,"mensagem":"POST /api/carrinho respondeu 400"}
+{"index":{"_id":"159"}}
+{"@timestamp":"2026-10-09T19:40:08Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":16,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"160"}}
+{"@timestamp":"2026-10-17T02:32:52Z","nivel":"erro","servico":"api","rota":"/api/carrinho","status":503,"duracao_ms":3021,"mensagem":"GET /api/carrinho respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"161"}}
+{"@timestamp":"2026-10-03T09:15:13Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":304,"duracao_ms":339,"mensagem":"GET /checkout respondeu 304"}
+{"index":{"_id":"162"}}
+{"@timestamp":"2026-10-23T17:01:17Z","nivel":"erro","servico":"pagamentos","rota":"/api/produtos","status":503,"duracao_ms":1515,"mensagem":"POST /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"163"}}
+{"@timestamp":"2026-10-03T16:07:30Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":198,"mensagem":"PUT /api/produtos respondeu 200"}
+{"index":{"_id":"164"}}
+{"@timestamp":"2026-10-13T15:13:50Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":176,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"165"}}
+{"@timestamp":"2026-10-19T20:45:53Z","nivel":"erro","servico":"loja-web","rota":"/login","status":503,"duracao_ms":84,"mensagem":"POST /login respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"166"}}
+{"@timestamp":"2026-10-25T05:31:18Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":85,"mensagem":"PUT /api/produtos respondeu 200"}
+{"index":{"_id":"167"}}
+{"@timestamp":"2026-10-14T20:05:21Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":201,"duracao_ms":231,"mensagem":"POST /api/produtos respondeu 201"}
+{"index":{"_id":"168"}}
+{"@timestamp":"2026-10-10T11:19:03Z","nivel":"aviso","servico":"loja-web","rota":"/api/produtos","status":404,"duracao_ms":261,"mensagem":"GET /api/produtos respondeu 404"}
+{"index":{"_id":"169"}}
+{"@timestamp":"2026-10-18T03:55:04Z","nivel":"info","servico":"pagamentos","rota":"/api/pedidos","status":200,"duracao_ms":318,"mensagem":"PUT /api/pedidos respondeu 200"}
+{"index":{"_id":"170"}}
+{"@timestamp":"2026-10-10T19:10:59Z","nivel":"aviso","servico":"loja-web","rota":"/api/pedidos","status":404,"duracao_ms":435,"mensagem":"POST /api/pedidos respondeu 404"}
+{"index":{"_id":"171"}}
+{"@timestamp":"2026-10-17T17:49:08Z","nivel":"info","servico":"api","rota":"/login","status":201,"duracao_ms":185,"mensagem":"GET /login respondeu 201"}
+{"index":{"_id":"172"}}
+{"@timestamp":"2026-10-13T16:25:16Z","nivel":"aviso","servico":"pagamentos","rota":"/checkout","status":404,"duracao_ms":463,"mensagem":"PUT /checkout respondeu 404"}
+{"index":{"_id":"173"}}
+{"@timestamp":"2026-10-26T20:16:07Z","nivel":"info","servico":"loja-web","rota":"/api/carrinho","status":200,"duracao_ms":74,"mensagem":"PUT /api/carrinho respondeu 200"}
+{"index":{"_id":"174"}}
+{"@timestamp":"2026-10-03T01:35:40Z","nivel":"aviso","servico":"api","rota":"/login","status":401,"duracao_ms":340,"mensagem":"PUT /login respondeu 401"}
+{"index":{"_id":"175"}}
+{"@timestamp":"2026-10-23T19:39:13Z","nivel":"erro","servico":"api","rota":"/checkout","status":500,"duracao_ms":834,"mensagem":"GET /checkout respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"176"}}
+{"@timestamp":"2026-10-03T05:51:16Z","nivel":"info","servico":"pagamentos","rota":"/api/pedidos","status":304,"duracao_ms":307,"mensagem":"PUT /api/pedidos respondeu 304"}
+{"index":{"_id":"177"}}
+{"@timestamp":"2026-10-11T06:13:28Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":200,"duracao_ms":220,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"178"}}
+{"@timestamp":"2026-10-06T15:58:11Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":414,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"179"}}
+{"@timestamp":"2026-10-15T05:58:24Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":201,"duracao_ms":382,"mensagem":"PUT /checkout respondeu 201"}
+{"index":{"_id":"180"}}
+{"@timestamp":"2026-10-16T18:25:18Z","nivel":"info","servico":"pagamentos","rota":"/api/produtos","status":200,"duracao_ms":399,"mensagem":"PUT /api/produtos respondeu 200"}
+{"index":{"_id":"181"}}
+{"@timestamp":"2026-10-02T19:59:46Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":204,"duracao_ms":79,"mensagem":"GET /api/carrinho respondeu 204"}
+{"index":{"_id":"182"}}
+{"@timestamp":"2026-10-07T06:11:42Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":382,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"183"}}
+{"@timestamp":"2026-10-25T22:14:56Z","nivel":"aviso","servico":"api","rota":"/api/clientes","status":404,"duracao_ms":418,"mensagem":"PUT /api/clientes respondeu 404"}
+{"index":{"_id":"184"}}
+{"@timestamp":"2026-10-07T08:23:59Z","nivel":"erro","servico":"loja-web","rota":"/api/clientes","status":503,"duracao_ms":2269,"mensagem":"GET /api/clientes respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"185"}}
+{"@timestamp":"2026-10-20T15:43:56Z","nivel":"info","servico":"api","rota":"/checkout","status":304,"duracao_ms":417,"mensagem":"GET /checkout respondeu 304"}
+{"index":{"_id":"186"}}
+{"@timestamp":"2026-10-28T04:19:53Z","nivel":"aviso","servico":"pagamentos","rota":"/login","status":404,"duracao_ms":262,"mensagem":"GET /login respondeu 404"}
+{"index":{"_id":"187"}}
+{"@timestamp":"2026-10-20T11:36:52Z","nivel":"info","servico":"loja-web","rota":"/api/produtos","status":200,"duracao_ms":233,"mensagem":"PUT /api/produtos respondeu 200"}
+{"index":{"_id":"188"}}
+{"@timestamp":"2026-10-24T12:42:28Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":260,"mensagem":"POST /api/produtos respondeu 200"}
+{"index":{"_id":"189"}}
+{"@timestamp":"2026-10-07T17:04:19Z","nivel":"info","servico":"loja-web","rota":"/api/pedidos","status":304,"duracao_ms":12,"mensagem":"GET /api/pedidos respondeu 304"}
+{"index":{"_id":"190"}}
+{"@timestamp":"2026-10-02T20:47:47Z","nivel":"info","servico":"api","rota":"/checkout","status":200,"duracao_ms":227,"mensagem":"PUT /checkout respondeu 200"}
+{"index":{"_id":"191"}}
+{"@timestamp":"2026-10-02T09:39:41Z","nivel":"info","servico":"pagamentos","rota":"/checkout","status":201,"duracao_ms":381,"mensagem":"GET /checkout respondeu 201"}
+{"index":{"_id":"192"}}
+{"@timestamp":"2026-10-20T03:23:25Z","nivel":"info","servico":"pagamentos","rota":"/login","status":200,"duracao_ms":57,"mensagem":"GET /login respondeu 200"}
+{"index":{"_id":"193"}}
+{"@timestamp":"2026-10-01T23:45:39Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":304,"duracao_ms":459,"mensagem":"PUT /checkout respondeu 304"}
+{"index":{"_id":"194"}}
+{"@timestamp":"2026-10-03T08:17:46Z","nivel":"info","servico":"loja-web","rota":"/checkout","status":204,"duracao_ms":352,"mensagem":"PUT /checkout respondeu 204"}
+{"index":{"_id":"195"}}
+{"@timestamp":"2026-10-14T11:35:07Z","nivel":"info","servico":"api","rota":"/api/clientes","status":304,"duracao_ms":41,"mensagem":"GET /api/clientes respondeu 304"}
+{"index":{"_id":"196"}}
+{"@timestamp":"2026-10-02T08:04:32Z","nivel":"aviso","servico":"pagamentos","rota":"/api/carrinho","status":404,"duracao_ms":427,"mensagem":"GET /api/carrinho respondeu 404"}
+{"index":{"_id":"197"}}
+{"@timestamp":"2026-10-23T16:18:19Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":32,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"198"}}
+{"@timestamp":"2026-10-09T04:51:52Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":304,"duracao_ms":146,"mensagem":"GET /api/carrinho respondeu 304"}
+{"index":{"_id":"199"}}
+{"@timestamp":"2026-10-15T10:47:28Z","nivel":"erro","servico":"pagamentos","rota":"/login","status":500,"duracao_ms":4189,"mensagem":"PUT /login respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"200"}}
+{"@timestamp":"2026-10-10T09:09:13Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":200,"duracao_ms":450,"mensagem":"POST /api/carrinho respondeu 200"}
+{"index":{"_id":"201"}}
+{"@timestamp":"2026-10-02T18:53:35Z","nivel":"aviso","servico":"api","rota":"/api/pedidos","status":401,"duracao_ms":248,"mensagem":"POST /api/pedidos respondeu 401"}
+{"index":{"_id":"202"}}
+{"@timestamp":"2026-10-17T00:58:02Z","nivel":"info","servico":"loja-web","rota":"/api/clientes","status":200,"duracao_ms":475,"mensagem":"GET /api/clientes respondeu 200"}
+{"index":{"_id":"203"}}
+{"@timestamp":"2026-10-23T21:15:22Z","nivel":"erro","servico":"pagamentos","rota":"/api/produtos","status":503,"duracao_ms":1835,"mensagem":"GET /api/produtos respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"204"}}
+{"@timestamp":"2026-10-03T06:00:45Z","nivel":"aviso","servico":"pagamentos","rota":"/login","status":400,"duracao_ms":35,"mensagem":"PUT /login respondeu 400"}
+{"index":{"_id":"205"}}
+{"@timestamp":"2026-10-28T19:18:35Z","nivel":"info","servico":"api","rota":"/api/carrinho","status":200,"duracao_ms":216,"mensagem":"PUT /api/carrinho respondeu 200"}
+{"index":{"_id":"206"}}
+{"@timestamp":"2026-10-24T06:13:09Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":201,"duracao_ms":35,"mensagem":"GET /api/pedidos respondeu 201"}
+{"index":{"_id":"207"}}
+{"@timestamp":"2026-10-06T18:14:41Z","nivel":"info","servico":"api","rota":"/api/produtos","status":200,"duracao_ms":294,"mensagem":"GET /api/produtos respondeu 200"}
+{"index":{"_id":"208"}}
+{"@timestamp":"2026-10-10T15:25:34Z","nivel":"aviso","servico":"api","rota":"/login","status":404,"duracao_ms":307,"mensagem":"GET /login respondeu 404"}
+{"index":{"_id":"209"}}
+{"@timestamp":"2026-10-19T21:59:45Z","nivel":"erro","servico":"loja-web","rota":"/checkout","status":500,"duracao_ms":3109,"mensagem":"GET /checkout respondeu 500 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"210"}}
+{"@timestamp":"2026-10-19T22:17:40Z","nivel":"erro","servico":"loja-web","rota":"/checkout","status":503,"duracao_ms":1236,"mensagem":"PUT /checkout respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"211"}}
+{"@timestamp":"2026-10-15T06:47:27Z","nivel":"aviso","servico":"loja-web","rota":"/api/clientes","status":404,"duracao_ms":378,"mensagem":"PUT /api/clientes respondeu 404"}
+{"index":{"_id":"212"}}
+{"@timestamp":"2026-10-21T20:25:43Z","nivel":"info","servico":"loja-web","rota":"/api/clientes","status":204,"duracao_ms":418,"mensagem":"POST /api/clientes respondeu 204"}
+{"index":{"_id":"213"}}
+{"@timestamp":"2026-10-22T21:04:18Z","nivel":"info","servico":"api","rota":"/api/pedidos","status":304,"duracao_ms":449,"mensagem":"GET /api/pedidos respondeu 304"}
+{"index":{"_id":"214"}}
+{"@timestamp":"2026-10-19T03:48:10Z","nivel":"info","servico":"loja-web","rota":"/api/carrinho","status":200,"duracao_ms":273,"mensagem":"GET /api/carrinho respondeu 200"}
+{"index":{"_id":"215"}}
+{"@timestamp":"2026-10-06T10:46:12Z","nivel":"erro","servico":"pagamentos","rota":"/api/clientes","status":503,"duracao_ms":278,"mensagem":"POST /api/clientes respondeu 503 — tempo esgotado ao falar com o banco"}
+{"index":{"_id":"216"}}
+{"@timestamp":"2026-10-04T03:43:54Z","nivel":"info","servico":"pagamentos","rota":"/api/carrinho","status":304,"duracao_ms":136,"mensagem":"PUT /api/carrinho respondeu 304"}
+{"index":{"_id":"217"}}
+{"@timestamp":"2026-10-23T17:20:22Z","nivel":"aviso","servico":"api","rota":"/api/produtos","status":400,"duracao_ms":250,"mensagem":"PUT /api/produtos respondeu 400"}
+{"index":{"_id":"218"}}
+{"@timestamp":"2026-10-23T01:27:24Z","nivel":"aviso","servico":"api","rota":"/api/produtos","status":400,"duracao_ms":307,"mensagem":"PUT /api/produtos respondeu 400"}
+{"index":{"_id":"219"}}
+{"@timestamp":"2026-10-03T18:59:31Z","nivel":"aviso","servico":"loja-web","rota":"/checkout","status":401,"duracao_ms":441,"mensagem":"PUT /checkout respondeu 401"}
+{"index":{"_id":"220"}}
+{"@timestamp":"2026-10-01T21:25:49Z","nivel":"info","servico":"api","rota":"/api/produtos","status":304,"duracao_ms":224,"mensagem":"GET /api/produtos respondeu 304"}

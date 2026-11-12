@@ -1,0 +1,44 @@
+{
+  "name": "chairminus",
+  "productName": "Chairminus",
+  "version": "0.1.0",
+  "description": "A native-feeling database client for PostgreSQL, MySQL/MariaDB, SQLite, MongoDB, Redis, Elasticsearch/OpenSearch and Neo4j.",
+  "main": "src/main/main.js",
+  "author": "Chairminus",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node scripts/build.js && node scripts/electron.js .",
+    "test": "node --test",
+    "smoke": "node scripts/build.js && node scripts/smoke.js",
+    "icon": "node scripts/electron.js scripts/make-icon.js",
+    "check:drivers": "node scripts/electron.js scripts/driver-check.js",
+    "dist": "node scripts/build.js && node scripts/package.js",
+    "dist:mac": "node scripts/build.js && node scripts/package.js --platform darwin && node scripts/dmg.js",
+    "dist:win": "node scripts/build.js && node scripts/package.js --platform win32 --arch x64"
+  },
+  "dependencies": {
+    "@redis/client": "^6.3.1",
+    "mongodb": "^7.8.0",
+    "mysql2": "^3.11.0",
+    "neo4j-driver-lite": "^6.3.0",
+    "pg": "^8.13.0",
+    "pg-cursor": "^2.12.0",
+    "ssh2": "^1.16.0"
+  },
+  "devDependencies": {
+    "@codemirror/autocomplete": "^6.18.0",
+    "@codemirror/commands": "^6.7.0",
+    "@codemirror/lang-sql": "^6.8.0",
+    "@codemirror/language": "^6.10.0",
+    "@codemirror/search": "^6.5.0",
+    "@codemirror/state": "^6.4.0",
+    "@codemirror/view": "^6.34.0",
+    "@electron/fuses": "^1.8.0",
+    "@electron/packager": "^18.3.0",
+    "@lezer/highlight": "^1.2.0",
+    "electron": "^45.3.0",
+    "esbuild": "^0.24.0"
+  }
+}

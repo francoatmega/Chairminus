@@ -1,0 +1,245 @@
+SELECT 0
+SET cache:home:destaques "[{\"sku\":\"CAD-1001\",\"nome\":\"Cadeira Giratória Nogueira\",\"preco\":2213.9},{\"sku\":\"CAD-1002\",\"nome\":\"Cadeira de Jantar Preto\",\"preco\":1680.9},{\"sku\":\"CAD-1003\",\"nome\":\"Banqueta Alta Nogueira\",\"preco\":2335.9},{\"sku\":\"CAD-1004\",\"nome\":\"Poltrona de Leitura Nogueira\",\"preco\":423.9}]"
+EXPIRE cache:home:destaques 2592000
+RPUSH carrinho:1 CAD-1002 JAR-1002 SOF-1001 SOF-1005
+EXPIRE carrinho:1 1209600
+RPUSH carrinho:10 JAR-1002
+EXPIRE carrinho:10 1209600
+RPUSH carrinho:13 ESC-1002
+EXPIRE carrinho:13 1209600
+RPUSH carrinho:16 DEC-1003 CAD-1001
+EXPIRE carrinho:16 1209600
+RPUSH carrinho:19 DEC-1003 MES-1001
+EXPIRE carrinho:19 1209600
+RPUSH carrinho:22 SOF-1001
+EXPIRE carrinho:22 1209600
+RPUSH carrinho:25 SOF-1001 ILU-1004 ILU-1001
+EXPIRE carrinho:25 1209600
+RPUSH carrinho:28 ESC-1004 JAR-1002 SOF-1002
+EXPIRE carrinho:28 1209600
+RPUSH carrinho:31 MES-1004
+EXPIRE carrinho:31 1209600
+RPUSH carrinho:34 ESC-1003 ILU-1004 JAR-1003
+EXPIRE carrinho:34 1209600
+RPUSH carrinho:37 SOF-1002
+EXPIRE carrinho:37 1209600
+RPUSH carrinho:4 ESC-1004 JAR-1005 DEC-1002 EST-1005
+EXPIRE carrinho:4 1209600
+RPUSH carrinho:40 SOF-1001 MES-1005
+EXPIRE carrinho:40 1209600
+RPUSH carrinho:43 MES-1002
+EXPIRE carrinho:43 1209600
+RPUSH carrinho:46 DEC-1003 ESC-1005 EST-1003 SOF-1003
+EXPIRE carrinho:46 1209600
+RPUSH carrinho:49 JAR-1003 MES-1002 SOF-1002 SOF-1002
+EXPIRE carrinho:49 1209600
+RPUSH carrinho:52 SOF-1003 DEC-1005
+EXPIRE carrinho:52 1209600
+RPUSH carrinho:7 SOF-1004 JAR-1005 JAR-1005
+EXPIRE carrinho:7 1209600
+SADD categorias Cadeiras "Decoração" "Escritório" Estantes "Iluminação" Jardim Mesas "Sofás"
+HSET cliente:1 nome "Elisa Cavalcante Souza" email elisa.cavalcante.souza@example.com cidade Fortaleza uf CE vip 0
+HSET cliente:10 nome "Quitéria D'Ávila Rocha" email quiteria.d.avila.rocha@example.com cidade Curitiba uf PR vip 0
+HSET cliente:11 nome "Quitéria Rocha" email quiteria.rocha@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:12 nome "Fábio Sampaio Souza" email fabio.sampaio.souza@example.com cidade "Rio de Janeiro" uf RJ vip 0
+HSET cliente:13 nome "Nuno Costa" email nuno.costa@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:14 nome "Yasmin Martins Nogueira" email yasmin.martins.nogueira@example.com cidade Crato uf CE vip 1
+HSET cliente:15 nome "Carla Sampaio" email carla.sampaio@example.com cidade "Porto Alegre" uf RS vip 0
+HSET cliente:16 nome "Giovana Silva" email giovana.silva@example.com cidade Crato uf CE vip 0
+HSET cliente:17 nome "Lucas Silva" email lucas.silva@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:18 nome "Heitor Costa Gomes" email heitor.costa.gomes@example.com cidade Manaus uf AM vip 0
+HSET cliente:19 nome "Paulo Cavalcante" email paulo.cavalcante@example.com cidade "Rio de Janeiro" uf RJ vip 0
+HSET cliente:2 nome "Quitéria Araújo" email quiteria.araujo@example.com cidade "Juazeiro do Norte" uf CE vip 1
+HSET cliente:20 nome "Tiago Araújo Rocha" email tiago.araujo.rocha@example.com cidade Fortaleza uf CE vip 0
+HSET cliente:21 nome "Giovana Costa" email giovana.costa@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:22 nome "Wanda D'Ávila" email wanda.d.avila@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:23 nome "Vítor Almeida" email vitor.almeida@example.com cidade Recife uf PE vip 0
+HSET cliente:24 nome "Rafael Costa" email rafael.costa@example.com cidade Manaus uf AM vip 0
+HSET cliente:25 nome "Sofia Costa" email sofia.costa2@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:26 nome "Marina D'Ávila Almeida" email marina.d.avila.almeida@example.com cidade "Belém" uf PA vip 0
+HSET cliente:27 nome "Úrsula Nogueira" email ursula.nogueira@example.com cidade "Belém" uf PA vip 0
+HSET cliente:28 nome "Úrsula Cavalcante Araújo" email ursula.cavalcante.araujo@example.com cidade "Juazeiro do Norte" uf CE vip 0
+HSET cliente:29 nome "Lucas Lima Souza" email lucas.lima.souza@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:3 nome "Nuno Almeida Silva" email nuno.almeida.silva@example.com cidade Manaus uf AM vip 1
+HSET cliente:30 nome "João Pereira" email joao.pereira@example.com cidade Manaus uf AM vip 1
+HSET cliente:31 nome "Nuno Nogueira" email nuno.nogueira@example.com cidade "Porto Alegre" uf RS vip 0
+HSET cliente:32 nome "Heitor Araújo" email heitor.araujo@example.com cidade Recife uf PE vip 0
+HSET cliente:33 nome "Quitéria Araújo" email quiteria.araujo2@example.com cidade Manaus uf AM vip 0
+HSET cliente:34 nome "Diego Souza" email diego.souza@example.com cidade "Porto Alegre" uf RS vip 1
+HSET cliente:35 nome "Carla Silva" email carla.silva@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:36 nome "Zeca Araújo" email zeca.araujo@example.com cidade Manaus uf AM vip 0
+HSET cliente:37 nome "Úrsula Rocha" email ursula.rocha@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:38 nome "Olívia Araújo" email olivia.araujo@example.com cidade Curitiba uf PR vip 0
+HSET cliente:39 nome "Paulo Nogueira Sampaio" email paulo.nogueira.sampaio@example.com cidade Crato uf CE vip 0
+HSET cliente:4 nome "Quitéria Gomes Araújo" email quiteria.gomes.araujo@example.com cidade Manaus uf AM vip 0
+HSET cliente:40 nome "João Lima" email joao.lima@example.com cidade Fortaleza uf CE vip 0
+HSET cliente:41 nome "Carla Barbosa Sampaio" email carla.barbosa.sampaio@example.com cidade Manaus uf AM vip 0
+HSET cliente:42 nome "Iara Gomes Cavalcante" email iara.gomes.cavalcante@example.com cidade "Rio de Janeiro" uf RJ vip 1
+HSET cliente:43 nome "Wanda Gomes" email wanda.gomes@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:44 nome "Rafael Rocha" email rafael.rocha@example.com cidade Curitiba uf PR vip 0
+HSET cliente:45 nome "Zeca Almeida" email zeca.almeida2@example.com cidade "Juazeiro do Norte" uf CE vip 0
+HSET cliente:46 nome "Úrsula Pereira D'Ávila" email ursula.pereira.d.avila@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:47 nome "Iara Cavalcante Pereira" email iara.cavalcante.pereira@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:48 nome "Karen Sampaio" email karen.sampaio@example.com cidade Crato uf CE vip 0
+HSET cliente:49 nome "Rafael Barbosa" email rafael.barbosa@example.com cidade "Juazeiro do Norte" uf CE vip 0
+HSET cliente:5 nome "Zeca Almeida" email zeca.almeida@example.com cidade Fortaleza uf CE vip 0
+HSET cliente:50 nome "Tiago D'Ávila" email tiago.d.avila@example.com cidade Salvador uf BA vip 0
+HSET cliente:51 nome "Carla Lima Almeida" email carla.lima.almeida@example.com cidade Salvador uf BA vip 0
+HSET cliente:52 nome "Wanda Pereira" email wanda.pereira@example.com cidade Fortaleza uf CE vip 0
+HSET cliente:53 nome "Giovana Costa" email giovana.costa2@example.com cidade "Porto Alegre" uf RS vip 0
+HSET cliente:54 nome "Heitor D'Ávila" email heitor.d.avila@example.com cidade Recife uf PE vip 0
+HSET cliente:55 nome "Nuno Martins" email nuno.martins@example.com cidade "Belo Horizonte" uf MG vip 0
+HSET cliente:56 nome "Quitéria Gomes" email quiteria.gomes@example.com cidade "Juazeiro do Norte" uf CE vip 0
+HSET cliente:57 nome "Heitor Almeida" email heitor.almeida@example.com cidade Curitiba uf PR vip 0
+HSET cliente:58 nome "Karen Souza Sampaio" email karen.souza.sampaio@example.com cidade Curitiba uf PR vip 0
+HSET cliente:59 nome "Iara Pereira Araújo" email iara.pereira.araujo@example.com cidade "Porto Alegre" uf RS vip 0
+HSET cliente:6 nome "Heitor Lima" email heitor.lima@example.com cidade "Belém" uf PA vip 0
+HSET cliente:60 nome "Fábio Rocha" email fabio.rocha@example.com cidade Crato uf CE vip 0
+HSET cliente:7 nome "Paulo Almeida Martins" email paulo.almeida.martins@example.com cidade "Juazeiro do Norte" uf CE vip 0
+HSET cliente:8 nome "Sofia Costa" email sofia.costa@example.com cidade "São Paulo" uf SP vip 0
+HSET cliente:9 nome "Karen Nogueira" email karen.nogueira@example.com cidade "Rio de Janeiro" uf RJ vip 0
+HSET config:loja nome "Loja Chairminus" moeda BRL frete_gratis_acima_de 499.90 manutencao false
+SET contador:pedidos 720
+XADD eventos:pedidos 1794386393535-0 pedido 709 status entregue total 423.9
+XADD eventos:pedidos 1794386393537-0 pedido 710 status enviado total 2675.7
+XADD eventos:pedidos 1794386393537-1 pedido 711 status pago total 6156.5
+XADD eventos:pedidos 1794386393537-2 pedido 712 status enviado total 1989.8
+XADD eventos:pedidos 1794386393537-3 pedido 713 status aberto total 1369.7
+XADD eventos:pedidos 1794386393537-4 pedido 714 status aberto total 2332.9
+XADD eventos:pedidos 1794386393537-5 pedido 715 status entregue total 1680.9
+XADD eventos:pedidos 1794386393537-6 pedido 716 status cancelado total 1362.9
+XADD eventos:pedidos 1794386393537-7 pedido 717 status pago total 9803.2
+XADD eventos:pedidos 1794386393537-8 pedido 718 status entregue total 11191.3
+XADD eventos:pedidos 1794386393537-9 pedido 719 status entregue total 9734.4
+XADD eventos:pedidos 1794386393537-10 pedido 720 status pago total 4274.4
+RPUSH fila:emails "{\"pedido\":715,\"modelo\":\"confirmacao\",\"para\":\"olivia.araujo@example.com\"}" "{\"pedido\":716,\"modelo\":\"confirmacao\",\"para\":\"fabio.barbosa@example.com\"}" "{\"pedido\":717,\"modelo\":\"confirmacao\",\"para\":\"quiteria.gomes@example.com\"}" "{\"pedido\":718,\"modelo\":\"confirmacao\",\"para\":\"elisa.cavalcante.souza@example.com\"}" "{\"pedido\":719,\"modelo\":\"confirmacao\",\"para\":\"quiteria.gomes.araujo@example.com\"}" "{\"pedido\":720,\"modelo\":\"confirmacao\",\"para\":\"nuno.gomes.pereira@example.com\"}"
+SADD produto:CAD-1001:tags compacto
+SET produto:CAD-1001:visitas 4186
+SADD produto:CAD-1002:tags compacto
+SET produto:CAD-1002:visitas 4228
+SADD produto:CAD-1003:tags compacto
+SET produto:CAD-1003:visitas 4646
+SADD produto:CAD-1004:tags "lançamento"
+SET produto:CAD-1004:visitas 1130
+SADD produto:CAD-1005:tags "frete grátis"
+SET produto:CAD-1005:visitas 9166
+SADD produto:DEC-1001:tags "mais vendido" "promoção"
+SET produto:DEC-1001:visitas 3722
+SADD produto:DEC-1002:tags "ecológico" "promoção"
+SET produto:DEC-1002:visitas 8446
+SADD produto:DEC-1003:tags "lançamento"
+SET produto:DEC-1003:visitas 237
+SADD produto:DEC-1004:tags "lançamento" "promoção"
+SET produto:DEC-1004:visitas 6811
+SADD produto:DEC-1005:tags "ecológico" "mais vendido"
+SET produto:DEC-1005:visitas 3231
+SADD produto:ESC-1001:tags compacto
+SET produto:ESC-1001:visitas 6706
+SADD produto:ESC-1002:tags "promoção"
+SET produto:ESC-1002:visitas 1637
+SADD produto:ESC-1003:tags "promoção"
+SET produto:ESC-1003:visitas 267
+SADD produto:ESC-1004:tags "ecológico" "lançamento"
+SET produto:ESC-1004:visitas 24
+SADD produto:ESC-1005:tags compacto
+SET produto:ESC-1005:visitas 2111
+SADD produto:EST-1001:tags "ecológico" "promoção"
+SET produto:EST-1001:visitas 3314
+SADD produto:EST-1002:tags "promoção"
+SET produto:EST-1002:visitas 8937
+SADD produto:EST-1003:tags "mais vendido"
+SET produto:EST-1003:visitas 9254
+SADD produto:EST-1004:tags compacto
+SET produto:EST-1004:visitas 1056
+SADD produto:EST-1005:tags "frete grátis" "promoção"
+SET produto:EST-1005:visitas 6346
+SADD produto:ILU-1001:tags compacto "mais vendido"
+SET produto:ILU-1001:visitas 8006
+SADD produto:ILU-1002:tags "sob encomenda"
+SET produto:ILU-1002:visitas 7629
+SADD produto:ILU-1003:tags "lançamento"
+SET produto:ILU-1003:visitas 7754
+SADD produto:ILU-1004:tags compacto
+SET produto:ILU-1004:visitas 5890
+SADD produto:ILU-1005:tags compacto "promoção"
+SET produto:ILU-1005:visitas 6924
+SADD produto:JAR-1001:tags "frete grátis"
+SET produto:JAR-1001:visitas 3530
+SADD produto:JAR-1002:tags "mais vendido" "promoção"
+SET produto:JAR-1002:visitas 951
+SADD produto:JAR-1003:tags "promoção"
+SET produto:JAR-1003:visitas 2199
+SADD produto:JAR-1004:tags "sob encomenda"
+SET produto:JAR-1004:visitas 8390
+SADD produto:JAR-1005:tags "lançamento"
+SET produto:JAR-1005:visitas 2010
+SADD produto:MES-1001:tags "lançamento" "sob encomenda"
+SET produto:MES-1001:visitas 7524
+SADD produto:MES-1002:tags "lançamento"
+SET produto:MES-1002:visitas 500
+SADD produto:MES-1003:tags "ecológico" "sob encomenda"
+SET produto:MES-1003:visitas 2958
+SADD produto:MES-1004:tags "lançamento" "mais vendido"
+SET produto:MES-1004:visitas 8317
+SADD produto:MES-1005:tags compacto
+SET produto:MES-1005:visitas 8300
+SADD produto:SOF-1001:tags compacto "sob encomenda"
+SET produto:SOF-1001:visitas 1203
+SADD produto:SOF-1002:tags "promoção" "sob encomenda"
+SET produto:SOF-1002:visitas 9384
+SADD produto:SOF-1003:tags "ecológico"
+SET produto:SOF-1003:visitas 7362
+SADD produto:SOF-1004:tags compacto "promoção"
+SET produto:SOF-1004:visitas 5385
+SADD produto:SOF-1005:tags "mais vendido" "sob encomenda"
+SET produto:SOF-1005:visitas 8393
+ZADD ranking:clientes 39152.8 "Carla Sampaio" 41115.6 "João Pereira" 41609.4 "Tiago D'Ávila" 41790.8 "Xavier Pereira Almeida" 43358.4 "Rafael Costa" 43993.3 "Rafael Rocha" 44740.2 "Lucas Lima Souza" 45843.2 "Heitor Almeida" 46586.6 "Carla Silva" 47275.6 "Zeca Almeida" 47703.2 "Quitéria Araújo" 48384.1 "Nuno Almeida Silva" 48897.3 "Yasmin Martins Nogueira" 49040.7 "Úrsula Nogueira" 50116.3 "Iara Cavalcante Pereira" 52331.9 "Paulo Almeida Martins" 53978.3 "Heitor Lima" 55378.4 "Fábio Barbosa" 56847.8 "Quitéria D'Ávila Rocha" 66597.5 "Heitor Costa Gomes" 78222.5 "Quitéria Gomes Araújo" 78462.9 "Marina D'Ávila Almeida" 116070 "Elisa Cavalcante Souza"
+ZADD ranking:vendas 41 EST-1002 63 ESC-1005 64 ILU-1003 71 CAD-1002 71 DEC-1005 72 EST-1004 74 DEC-1001 76 CAD-1005 76 DEC-1002 78 CAD-1003 78 ILU-1002 79 SOF-1002 80 CAD-1004 80 ILU-1001 80 JAR-1003 83 MES-1002 84 EST-1003 84 JAR-1004 85 SOF-1004 86 ILU-1005 86 MES-1001 88 SOF-1003 88 SOF-1005 89 DEC-1003 89 DEC-1004 89 EST-1005 90 CAD-1001 90 ESC-1001 91 ESC-1003 93 ILU-1004 96 ESC-1004 96 EST-1001 102 ESC-1002 102 MES-1003 102 MES-1005 106 JAR-1001 106 JAR-1002 106 MES-1004 108 SOF-1001 116 JAR-1005
+HSET sessao:0fa7e1b0c3f0b8fc cliente 23 ip 10.0.4.20 agente App/Android
+EXPIRE sessao:0fa7e1b0c3f0b8fc 2160000
+HSET sessao:1639163844ae807e cliente 33 ip 10.0.6.246 agente Firefox/Linux
+EXPIRE sessao:1639163844ae807e 2419200
+HSET sessao:1e43e00bea652800 cliente 36 ip 10.0.6.112 agente Firefox/Linux
+EXPIRE sessao:1e43e00bea652800 1814400
+HSET sessao:26b9dc3c4ea65432 cliente 16 ip 10.0.5.122 agente App/iOS
+EXPIRE sessao:26b9dc3c4ea65432 691200
+HSET sessao:2dde6819dbcf25c2 cliente 3 ip 10.0.7.210 agente Firefox/Linux
+EXPIRE sessao:2dde6819dbcf25c2 1036800
+HSET sessao:3d173f7734cc9e42 cliente 37 ip 10.0.9.4 agente Chrome/Windows
+EXPIRE sessao:3d173f7734cc9e42 2419200
+HSET sessao:3e7dc93cc9e7bde9 cliente 30 ip 10.0.5.240 agente Firefox/Linux
+EXPIRE sessao:3e7dc93cc9e7bde9 259200
+HSET sessao:3fd13a89177257e1 cliente 33 ip 10.0.3.154 agente App/iOS
+EXPIRE sessao:3fd13a89177257e1 1814400
+HSET sessao:65fad165aebb6278 cliente 54 ip 10.0.3.55 agente Chrome/Windows
+EXPIRE sessao:65fad165aebb6278 2505600
+HSET sessao:7bc89f8a24db6564 cliente 46 ip 10.0.1.89 agente Chrome/Windows
+EXPIRE sessao:7bc89f8a24db6564 1123200
+HSET sessao:7ce37e30ff052d0b cliente 38 ip 10.0.7.173 agente Chrome/Windows
+EXPIRE sessao:7ce37e30ff052d0b 604800
+HSET sessao:814d0a7cf6800f4b cliente 2 ip 10.0.7.110 agente Firefox/Linux
+EXPIRE sessao:814d0a7cf6800f4b 1468800
+HSET sessao:8384733a1de6b2ae cliente 37 ip 10.0.2.46 agente App/iOS
+EXPIRE sessao:8384733a1de6b2ae 1209600
+HSET sessao:8560665f81628718 cliente 11 ip 10.0.4.212 agente Chrome/Windows
+EXPIRE sessao:8560665f81628718 432000
+HSET sessao:92c8e14b0eb99303 cliente 52 ip 10.0.3.206 agente Safari/macOS
+EXPIRE sessao:92c8e14b0eb99303 1900800
+HSET sessao:969dfe9d4583b3d5 cliente 40 ip 10.0.3.212 agente Chrome/Windows
+EXPIRE sessao:969dfe9d4583b3d5 259200
+HSET sessao:a050a3e44d242504 cliente 26 ip 10.0.5.124 agente Firefox/Linux
+EXPIRE sessao:a050a3e44d242504 691200
+HSET sessao:a40324527866b3dc cliente 56 ip 10.0.0.13 agente App/Android
+EXPIRE sessao:a40324527866b3dc 604800
+HSET sessao:bb84fce9c7e27898 cliente 29 ip 10.0.2.106 agente App/iOS
+EXPIRE sessao:bb84fce9c7e27898 604800
+HSET sessao:bcb70915b035e4b0 cliente 19 ip 10.0.5.145 agente App/Android
+EXPIRE sessao:bcb70915b035e4b0 345600
+HSET sessao:c136a0346a7b0919 cliente 58 ip 10.0.0.250 agente App/iOS
+EXPIRE sessao:c136a0346a7b0919 1987200
+HSET sessao:db61a5f0722e1818 cliente 30 ip 10.0.6.176 agente App/Android
+EXPIRE sessao:db61a5f0722e1818 259200
+HSET sessao:e1eb5a7eb7e3265e cliente 3 ip 10.0.2.160 agente Safari/macOS
+EXPIRE sessao:e1eb5a7eb7e3265e 2505600
+HSET sessao:e78c6e9bae320eeb cliente 49 ip 10.0.8.102 agente Safari/macOS
+EXPIRE sessao:e78c6e9bae320eeb 345600

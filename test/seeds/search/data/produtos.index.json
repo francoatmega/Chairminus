@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "number_of_shards": "1",
+    "number_of_replicas": "1"
+  },
+  "mappings": {
+    "properties": {
+      "ativo": {
+        "type": "boolean"
+      },
+      "atributos": {
+        "properties": {
+          "cor": {
+            "type": "keyword"
+          },
+          "dimensoes": {
+            "properties": {
+              "altura_cm": {
+                "type": "long"
+              },
+              "largura_cm": {
+                "type": "long"
+              },
+              "profundidade_cm": {
+                "type": "long"
+              }
+            }
+          },
+          "material": {
+            "type": "keyword"
+          },
+          "peso_kg": {
+            "type": "float"
+          }
+        }
+      },
+      "categoria": {
+        "type": "keyword"
+      },
+      "criado_em": {
+        "type": "date"
+      },
+      "estoque": {
+        "type": "integer"
+      },
+      "nome": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "preco": {
+        "type": "float"
+      },
+      "sku": {
+        "type": "keyword"
+      },
+      "tags": {
+        "type": "keyword"
+      }
+    }
+  }
+}

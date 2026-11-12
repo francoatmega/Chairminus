@@ -1,0 +1,180 @@
+# Seeded databases for trying Chairminus against every engine it supports (SQLite aside: it needs no server).
+# Every engine holds the same shop ("loja"): clientes, produtos, pedidos, avaliações, each in the engine's own shape.
+#
+#   docker compose up -d                  start everything (fits in a 4 GB Docker VM)
+#   docker compose up -d postgres         start one engine; engines with a "*-seed" helper need it too:
+#   docker compose up -d redis redis-seed
+#   docker compose down                   stop and throw the data away; the next "up" seeds again
+#   docker compose stop / start           pause and resume, keeping whatever you changed
+#
+# Every port is published on 127.0.0.1 only.
+#
+#   Engine         Host:port          User      Password      Database   Notes
+#   PostgreSQL     127.0.0.1:55432    postgres  secret        loja       schemas public, relatorios
+#   MySQL          127.0.0.1:53306    root      secret        loja
+#   MariaDB        127.0.0.1:53307    root      secret        loja
+#   MongoDB        127.0.0.1:57017    root      secret        loja       auth source: admin
+#   Redis          127.0.0.1:56379    (none)    secret        0
+#   Elasticsearch  127.0.0.1:59200    elastic   secret                   plain HTTP (TLS: Disabled)
+#   OpenSearch     127.0.0.1:59201    (none)    (none)                   plain HTTP, security plugin off
+#   Neo4j          127.0.0.1:57687    neo4j     secretsecret  neo4j      browser at http://127.0.0.1:57474
+
+name: chairminus-seeds
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: loja
+    ports: ["127.0.0.1:55432:5432"]
+    volumes:
+      - ./postgres:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # Over TCP on purpose: while the init scripts run, the server only listens on its socket.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d loja"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  mysql:
+    image: mysql:8.4
+    command: ["--innodb-buffer-pool-size=64M", "--performance-schema=OFF"]
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: loja
+    ports: ["127.0.0.1:53306:3306"]
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h127.0.0.1 -uroot -psecret --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+
+  mariadb:
+    image: mariadb:10.6
+    environment:
+      MARIADB_ROOT_PASSWORD: secret
+      MARIADB_DATABASE: loja
+    ports: ["127.0.0.1:53307:3306"]
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h127.0.0.1 -uroot -psecret --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+
+  mongodb:
+    image: mongo:7
+    command: ["--wiredTigerCacheSizeGB", "0.25"]
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    ports: ["127.0.0.1:57017:27017"]
+    volumes:
+      - ./mongodb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 10s
+      retries: 30
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--requirepass", "secret"]
+    ports: ["127.0.0.1:56379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "secret", "--no-auth-warning", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+
+  redis-seed:
+    image: redis:7-alpine
+    depends_on:
+      redis: { condition: service_healthy }
+    volumes:
+      - ./redis:/seed:ro
+    entrypoint: ["sh", "/seed/seed.sh"]
+    restart: "no"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+    environment:
+      discovery.type: single-node
+      ELASTIC_PASSWORD: secret
+      xpack.security.enabled: "true"
+      xpack.security.http.ssl.enabled: "false"
+      xpack.ml.enabled: "false"
+      ES_JAVA_OPTS: -Xms384m -Xmx384m
+    ports: ["127.0.0.1:59200:9200"]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "-u", "elastic:secret", "-o", "/dev/null", "http://127.0.0.1:9200/_cluster/health?wait_for_status=yellow&timeout=2s"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+
+  elasticsearch-seed:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+    depends_on:
+      elasticsearch: { condition: service_healthy }
+    environment:
+      SEARCH_URL: http://elasticsearch:9200
+      SEARCH_AUTH: elastic:secret
+    volumes:
+      - ./search:/seed:ro
+    entrypoint: ["sh", "/seed/seed.sh"]
+    restart: "no"
+
+  opensearch:
+    image: opensearchproject/opensearch:2
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      DISABLE_PERFORMANCE_ANALYZER_AGENT_CLI: "true"
+      OPENSEARCH_JAVA_OPTS: -Xms384m -Xmx384m
+    ports: ["127.0.0.1:59201:9200"]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "-o", "/dev/null", "http://127.0.0.1:9200/_cluster/health?wait_for_status=yellow&timeout=2s"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+
+  opensearch-seed:
+    image: opensearchproject/opensearch:2
+    depends_on:
+      opensearch: { condition: service_healthy }
+    environment:
+      SEARCH_URL: http://opensearch:9200
+    volumes:
+      - ./search:/seed:ro
+    entrypoint: ["sh", "/seed/seed.sh"]
+    restart: "no"
+
+  neo4j:
+    image: neo4j:5-community
+    environment:
+      NEO4J_AUTH: neo4j/secretsecret
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 384m
+      NEO4J_server_memory_pagecache_size: 64m
+      NEO4J_dbms_usage__report_enabled: "false"
+    ports:
+      - "127.0.0.1:57474:7474"
+      - "127.0.0.1:57687:7687"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:7474"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+
+  neo4j-seed:
+    image: neo4j:5-community
+    depends_on:
+      neo4j: { condition: service_healthy }
+    volumes:
+      - ./neo4j:/seed:ro
+    entrypoint: ["sh", "/seed/seed.sh"]
+    restart: "no"
