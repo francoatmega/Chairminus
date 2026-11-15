@@ -8,12 +8,12 @@ const SYSTEM_DBS = new Set(['information_schema', 'mysql', 'performance_schema',
 
 function sslOptions(p) {
   const mode = p.sslMode || 'prefer';
-  if (mode === 'disable' || mode === 'prefer') return undefined;
-  const o = { rejectUnauthorized: mode === 'verify-ca' || mode === 'verify-full' };
+  if (mode === 'disable') return undefined;
+  // mysql2 ignores checkServerIdentity; it checks the host name only when verifyIdentity is set.
+  const o = { rejectUnauthorized: mode === 'verify-ca' || mode === 'verify-full', verifyIdentity: mode === 'verify-full' };
   if (p.sslCa) o.ca = readIfSet(p.sslCa);
   if (p.sslCert) o.cert = readIfSet(p.sslCert);
   if (p.sslKey) o.key = readIfSet(p.sslKey);
-  if (mode === 'verify-ca') o.checkServerIdentity = () => undefined;
   return o;
 }
 
@@ -37,7 +37,7 @@ class MysqlDriver extends Driver {
       user: p.user || undefined,
       password: p.password || undefined,
       database: this.database || undefined,
-      ssl: sslOptions(p),
+      ssl: this.ssl === undefined ? sslOptions(p) : this.ssl || undefined,
       connectTimeout: 15000,
       dateStrings: true,
       supportBigNumbers: true,
@@ -52,7 +52,15 @@ class MysqlDriver extends Driver {
   }
 
   async connect() {
-    this.conn = await mysql.createConnection(this.config());
+    this.ssl = undefined;
+    try {
+      this.conn = await mysql.createConnection(this.config());
+    } catch (e) {
+      // "prefer": fall back to a plain connection only when the server has no TLS.
+      if ((this.params.sslMode || 'prefer') !== 'prefer' || e.code !== 'HANDSHAKE_NO_SSL_SUPPORT') throw e;
+      this.ssl = false;
+      this.conn = await mysql.createConnection(this.config());
+    }
     this.conn.on('error', (e) => { this.lastError = e; });
     const v = await this.meta('SELECT VERSION() AS v, DATABASE() AS db');
     this.version = v[0].v;
