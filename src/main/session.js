@@ -129,6 +129,11 @@ class Session {
       this.credentials = cred;
       for (const s of splitStatements(c.startupSql || '', driver.dialect)) await driver.query(s.text, [], {});
     } catch (e) {
+      // Node reports a failed connect to every address of a name (localhost: ::1 and 127.0.0.1) as an
+      // AggregateError with an empty message.
+      if (e && !e.message && Array.isArray(e.errors) && e.errors.length) {
+        e.message = [...new Set(e.errors.map((x) => x.message))].join('; ');
+      }
       await this.close(true);
       this.setState('disconnected', e.message);
       throw e;
