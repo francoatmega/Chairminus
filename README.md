@@ -47,6 +47,12 @@ Set `CHAIRMINUS_ARCH=x64` or `arm64` to build for another processor than the cur
 
 The builds are not signed with a developer certificate, so macOS Gatekeeper and Windows SmartScreen warn when the app is opened for the first time.
 
+### Releases
+
+Releases are made by the **Release** workflow in GitHub Actions. Run it from the Actions tab and choose the version bump (patch, minor or major). It updates the version in `package.json`, commits it to `main`, creates the tag, builds the macOS disk images (Apple Silicon and Intel) and the Windows zip, and publishes them as a GitHub release with notes generated from the commits. Releases are marked as pre-release unless you untick that option.
+
+The **CI** workflow runs the unit tests and the interface build on every push and pull request.
+
 To redraw the app icons from the logo in `src/shared/logo.js`, run `npm run icon`. It writes `build/icon.ico`, and on macOS also `build/icon.icns`.
 
 ## Test databases
