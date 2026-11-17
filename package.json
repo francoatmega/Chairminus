@@ -1,7 +1,7 @@
 {
   "name": "chairminus",
   "productName": "Chairminus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A native-feeling database client for PostgreSQL, MySQL/MariaDB, SQLite, MongoDB, Redis, Elasticsearch/OpenSearch and Neo4j.",
   "main": "src/main/main.js",
   "author": "Chairminus",
